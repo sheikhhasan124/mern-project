@@ -43,3 +43,8 @@ mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: tru
 mongoose.set('useFindAndModify', false)
 // https://www.mongodb.com/cloud/atlas;
 ```
+step 4  
+```
+create routes folder and make express.Route() 
+then import in index.js then write middle were 
+```
