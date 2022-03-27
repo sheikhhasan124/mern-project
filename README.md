@@ -45,6 +45,9 @@ mongoose.set('useFindAndModify', false)
 ```
 step 4  
 ```
-create routes folder and make express.Route() 
-then import in index.js then write middle were 
+create routes folder and make express.Route() >
+then import in index.js then write middle were >
+make controller folder and export it then emport it from routes >
+then create model folder  >
+
 ```
