@@ -39,6 +39,7 @@ mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: tru
 .then(()=>app.listen(PORT, ()=> console.log(`server running in port:${PORT}`)))
 .catch((error)=> console.log(error.message))
 
+// useFindAndModify it's i can't understand
 mongoose.set('useFindAndModify', false)
 // https://www.mongodb.com/cloud/atlas;
 ```
