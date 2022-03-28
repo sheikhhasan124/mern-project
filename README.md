@@ -77,5 +77,7 @@ then make post api at api folder then make createPost at action folder then impo
         dispatch(createPost(postData))
             }
           here  postData is useState's initial value which will be chanege by handle submit
+          then go to reduce folder and set action CREATE [...posts, action.payload] ,,Ya HUU! 
+          now i can send my data from client to database ,,this is a historycal day!
 
 ```
