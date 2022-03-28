@@ -71,5 +71,11 @@ step 6
 make action and reducer and api folder ,,fold thes at root file index.js and provide store to app.js then work at action folder to get requies from db  
 
 then work form folder to meke post req
+then make post api at api folder then make createPost at action folder then import  dispatch at form then import createPost from '../../actions/Posts.js and put in const handleSubmit=(e)=>{
+        e.preventDefault();
+
+        dispatch(createPost(postData))
+            }
+          here  postData is useState's initial value which will be chanege by handle submit
 
 ```
