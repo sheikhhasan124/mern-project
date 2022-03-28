@@ -57,12 +57,19 @@ then test it > then go to client, there u have more work to create post req from
 ```
 step 5 
 ```
-install @material icon core
+install @material icon ui
 then import container, appnab, grid, grow form @material icon at app.js
 
-appnab by material icon 
+appnab by material ui
 then create component form and post then import it to app.js
 then impotr material style 
 then set material style for every component apply that 
 then make api that make connect fron-end and backend
+```
+step 6
+```
+make action and reducer and api folder ,,fold thes at root file index.js and provide store to app.js then work at action folder to get requies from db  
+
+then work form folder to meke post req
+
 ```
